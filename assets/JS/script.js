@@ -37,7 +37,6 @@ const pins = [
   { id:25, cat:'travel', title:'Northern Lights dance', desc:'Tromso, Norway. Minus 20°C, but this light show makes every frozen second worthwhile.', author:'Aurora Chasers', authorImg:`https://ui-avatars.com/api/?name=Aurora+Chasers&background=e8eaf6&color=283593&size=40&bold=true`, likes:18432, h:380, color:'#e8eaf6', img:'https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=400&q=80' },
   { id:26, cat:'art', title:'Street mural magic', desc:'Berlin\'s walls are outdoor galleries. This piece took 3 artists and 2 weeks to complete.', author:'Urban Canvas', authorImg:`https://ui-avatars.com/api/?name=Urban+Canvas&background=e1bee7&color=6a1b9a&size=40&bold=true`, likes:5621, h:330, color:'#e1bee7', img:'https://images.unsplash.com/photo-1461344577544-4e5dc9487184?w=400&q=80' },
   { id:27, cat:'interior', title:'Cozy reading nook perfection', desc:'Built-in shelves, window seat, afternoon light. This corner is where novels come alive.', author:'Bookshelf Dreams', authorImg:`https://ui-avatars.com/api/?name=Bookshelf+Dreams&background=d7ccc8&color=4e342e&size=40&bold=true`, likes:9102, h:290, color:'#d7ccc8', img:'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80' },
-  { id:28, cat:'fashion', title:'Tonal dressing mastery', desc:'One color, multiple textures. Tonal dressing feels effortless but requires deliberate thinking.', author:'Edit & Wear', authorImg:`https://ui-avatars.com/api/?name=Edit+Wear&background=e0e0e0&color=212121&size=40&bold=true`, likes:6412, h:360, color:'#e0e0e0', img:'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&q=80' },
 ];
 
 let currentCat = 'all';
@@ -190,4 +189,5 @@ window.addEventListener('scroll', () => {
 });
 
 // ── INIT ──────────────────────────────────────────────────
+
 renderPins('all');
